@@ -1,38 +1,43 @@
+.Card_Custom {
+  width: 250px;
+} 
+.Card_Body_Custom {
+  background-color: #524E52;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
 .App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  width: 90%;
+  max-width: 400px;
+  height: 90vh;
+  margin: auto;
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
 }
-
-.App-link {
-  color: #61dafb;
+input {
+  display: block;
+  background: transparent;
+  color:white;
+  font-size:1.3rem;
+  border:0;
+  border-bottom:3px solid #FD8308;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+input:focus {
+  outline:none;
+  border:3px solid #FFD809;
+  font-size: 1.4;
+}
+button {
+  display: block;
+  margin: auto;
+  margin-top: 1rem;
+  border: 3px solid #FD7508;
+  background: transparent;
+  padding: .5rem;
+  color:white;
+}
+button:hover {
+  background:#FD7508;
 }
