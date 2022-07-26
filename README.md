@@ -1,70 +1,102 @@
-# Getting Started with Create React App
+<div align="center" id="top">
+  <img src="./src/img/pokedex.png"  width="100" height="100">   
+</div>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# <h1 align="center">Fetch and Render Data - Exercise</h1>
 
-## Available Scripts
+<p align="center">
+  <a href="#dart-description">Description</a> &#xa0; | &#xa0; 
+  <a href="#dart-demo">Demo</a> &#xa0; | &#xa0;
+  <a href="#memo-improvements">Improvements</a> &#xa0; | &#xa0;
+  <a href="#art-technologies">Technologies</a> &#xa0; | &#xa0;
+  <a href="#white_check_mark-requirements">Requirements</a> &#xa0; | &#xa0;
+  <a href="#toolbox-installation">Installation</a> &#xa0; | &#xa0;
+  <a href="#joystickhow-to-play">How to Play</a> &#xa0; | &#xa0;
+  <a href="#briefcase-license">License</a> &#xa0; | &#xa0;
+  <a href="https://github.com/arturomsoberanes" target="_blank">Author</a>
+</p>
 
-In the project directory, you can run:
+<br>
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## :dart: Description ##
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+The "Fetch and Render Data" exercise is a project of week 15 of the MITXPRO "Full-Stack with MERN" certification, in this project we render components obtaining data from an external source with React
+To make this project use [Create React App](https://create-react-app.dev/)
 
-### `npm test`
+## :dart: DEMO ##
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+If you want to try it just click [here](https://arturomsoberanes.github.io/fetch-and-render-data)
 
-### `npm run build`
+## :memo: Improvements ##
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+These are the list of currect improvements:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- :diamonds: Improve the interface.	
+- :diamonds: Add more information.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## :art: Technologies ##
 
-### `npm run eject`
+- [HTML](https://www.w3schools.com/html/)
+- [CSS](https://www.w3schools.com/css/)
+- [JavaScript](https://www.w3schools.com/js/)
+- [React](https://reactjs.org/)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## :white_check_mark: Requirements ##
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Before starting :checkered_flag:, you need to have:
+- [Git](https://git-scm.com).
+- [Node.js](https://nodejs.org/en/).
+- [Create React App](https://create-react-app.dev/).
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## :toolbox: Installation ##
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Clone Repository
 
-## Learn More
+```bash
+$ git clone https://github.com/arturomsoberanes/fetch-and-render-data.git
+```
+Change the name of directory
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+```bash
+$ mv fetch-and-render-data fetch-and-render-data-2
+```
+Install Create React App.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+```bash
+$ npx create-react-app my-app 
+```
 
-### Code Splitting
+Replace the files for the app.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+```bash
+$ cp -r fetch-and-render-data-2/ my-app/ 
+```
 
-### Analyzing the Bundle Size
+## :joystick:	How to Run ##
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Access in directory
 
-### Making a Progressive Web App
+```bash
+$ cd my-app
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Execute "start"
 
-### Advanced Configuration
+```bash
+$ npm start
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
-### Deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+## :briefcase:	 License ##
 
-### `npm run build` fails to minify
+This project is under license from MIT. For more details, see the [LICENSE](LICENSE) file.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+Made with :heart: by <a href="https://github.com/arturomsoberanes" target="_blank">Arturo Soberanes</a>
+
+&#xa0;
+
+<a href="#top">Back to top</a>
+
