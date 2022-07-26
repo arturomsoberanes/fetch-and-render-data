@@ -9,12 +9,17 @@
 .App {
   width: 90%;
   max-width: 400px;
-  height: 90vh;
   margin: auto;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin-top: 1rem;
+}
+@media screen and (min-width:1400px){
+  .App{
+    height: 90vh;
+  }
 }
 input {
   display: block;

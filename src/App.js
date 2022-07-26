@@ -74,7 +74,7 @@ function App() {
       sprites: []
     }
   );
-  const {abilities:abilities, name:name, sprites:sprites} = data;
+  const {id:id, abilities:abilities, name:name, sprites:sprites} = data;
 
   return (
     <Fragment>
@@ -103,6 +103,8 @@ function App() {
             <Card.Img src={sprites.front_default} variant="top"/>
             <Card.Body className="border-top border-3 border-danger Card_Body_Custom">
               <Card.Title>{name.toUpperCase()}</Card.Title>
+              <Card.Title className="fw-bold mb-1">No. ID:</Card.Title>
+              <Card.Text>{id}</Card.Text>
               <Card.Title className="fw-bold mb-1">Abilities:</Card.Title>
               <ul className="list-group list-group-numbered">
                 {abilities.map( (ability, i) => (
