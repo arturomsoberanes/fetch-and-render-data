@@ -3,7 +3,7 @@ import './Header.css';
 
 function Header(){
   return (
-    <header className="w-100 text-center mt-5">
+    <header className="w-100 text-center">
       <h1>Pokedex</h1>
     </header>
   );

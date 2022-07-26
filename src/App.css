@@ -16,12 +16,13 @@
   align-items: center;
   margin-top: 1rem;
 }
-@media screen and (min-width:1400px){
+@media screen and (min-width:700px){
   .App{
     height: 90vh;
   }
 }
-input {
+.App form input {
+  width: 100%;
   display: block;
   background: transparent;
   color:white;
@@ -29,12 +30,12 @@ input {
   border:0;
   border-bottom:3px solid #FD8308;
 }
-input:focus {
+.App form input:focus {
   outline:none;
   border:3px solid #FFD809;
   font-size: 1.4;
 }
-button {
+.App form button {
   display: block;
   margin: auto;
   margin-top: 1rem;
@@ -43,6 +44,6 @@ button {
   padding: .5rem;
   color:white;
 }
-button:hover {
+.App form button:hover {
   background:#FD7508;
 }
