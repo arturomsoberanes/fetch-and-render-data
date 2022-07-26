@@ -1,5 +1,5 @@
 <div align="center" id="top">
-  <img src="./src/img/pokedex.png"  width="100" height="100">   
+  <img src="./src/img/pokedex.png"  width="300">   
 </div>
 
 # <h1 align="center">Fetch and Render Data - Exercise</h1>
