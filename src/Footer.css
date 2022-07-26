@@ -1,0 +1,23 @@
+.footer {
+  padding: 1em;
+  margin-top: 9em;
+  height: 100px;
+  width: 100%;
+  background-color: #343434;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  flex-direction: column;
+  font-size:1rem;
+  font-family:"Poppins";
+  color:white;
+}
+.author img {
+  width: 20px;
+}
+.author a {
+  color:#daa520;
+}
+.author a:hover {
+  font-weight: bold;
+}
